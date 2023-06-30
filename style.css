@@ -11,16 +11,16 @@
     background-position: center;
 }
 .navbar{
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    width: 120px;
-    cursor: pointer;
+.navbar h1{
+    font-size: 40px;
+    color: #fff;
 }
 .navbar ul li{
     list-style: none;
@@ -93,4 +93,20 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+.resume_viwer{
+    background: #181818;
+    opacity: 1;
+    top: 50px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+}
+#resume_pdf{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 85%;
+    display: block;
 }
