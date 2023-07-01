@@ -96,7 +96,6 @@ button:hover{
 }
 .resume_viwer{
     background: #181818;
-    opacity: 1;
     top: 50px;
     height: 100%;
     width: 100%;
@@ -106,8 +105,8 @@ button:hover{
 #resume_pdf{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 85%;
+    width: 1000px;
+    height: 850px;
     display: block;
 }
 .contact{
